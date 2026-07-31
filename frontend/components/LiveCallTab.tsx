@@ -55,8 +55,8 @@ export default function LiveCallTab() {
     import('peerjs').then(({ default: Peer }) => {
       // ExpressTURN free tier (1000GB/month, no credit card) — signed up at
       // expressturn.com. Overridable via env vars if credentials rotate.
-      const turnUsername = process.env.NEXT_PUBLIC_TURN_USERNAME || '000000002100783781';
-      const turnCredential = process.env.NEXT_PUBLIC_TURN_CREDENTIAL || 'Cfeq2p2JQmUUfaM1sg4pQnjIP84=';
+      const turnUsername = process.env.NEXT_PUBLIC_TURN_USERNAME;
+      const turnCredential = process.env.NEXT_PUBLIC_TURN_CREDENTIAL;
       peer = new Peer(code!, {
         config: {
           iceServers: [
