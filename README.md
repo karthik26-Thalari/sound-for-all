@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="logo.svg" width="90" alt="Sound for All logo"/>
-
 # Sound for All
 
 ### Speech clearer — not louder.
