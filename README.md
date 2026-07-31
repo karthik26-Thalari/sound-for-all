@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.svg" width="90" alt="Sound for All logo"/>
+<img src="logo.svg" width="90" alt="Sound for All logo"/>
 
 # Sound for All
 
